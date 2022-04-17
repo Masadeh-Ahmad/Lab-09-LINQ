@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = LINQ
-build_property.ProjectDir = C:\Users\Tomcat00\source\repos\LINQ\LINQ\
+build_property.ProjectDir = C:\Users\Tomcat00\Dotnet-401\Lab-09-LINQ\LINQ\LINQ\
