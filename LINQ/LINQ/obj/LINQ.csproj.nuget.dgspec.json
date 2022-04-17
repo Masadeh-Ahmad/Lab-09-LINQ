@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\LINQ.csproj": {}
+    "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\LINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\LINQ.csproj": {
+    "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\LINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\LINQ.csproj",
+        "projectUniqueName": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\LINQ.csproj",
         "projectName": "LINQ",
-        "projectPath": "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\LINQ.csproj",
+        "projectPath": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\LINQ.csproj",
         "packagesPath": "C:\\Users\\Tomcat00\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\obj\\",
+        "outputPath": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tomcat00\\AppData\\Roaming\\NuGet\\NuGet.Config",

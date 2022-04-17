@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1M6XvYcgnX3z4nANTI6tSe17FAy3sw6NaOU1ocPODdVl/FQzAUMW6RrWee1kEc39/izWYA0sGxMpGydwQ2xm0g==",
+  "dgSpecHash": "z7H+Z86ncbHvU/EKodmDIURdU4a70rAQQ8Mdf/vMFfxZWVx+1PROMvrE0xJbS/Zp117S0FI8Brgm60OQWHokpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tomcat00\\source\\repos\\LINQ\\LINQ\\LINQ.csproj",
+  "projectFilePath": "C:\\Users\\Tomcat00\\Dotnet-401\\Lab-09-LINQ\\LINQ\\LINQ\\LINQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tomcat00\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
