@@ -53,6 +53,8 @@ namespace LINQ
                 }
                 Console.WriteLine("************************************** " + count + " **************************************");
                 count =0;
+
+
                 IEnumerable<string> emptyNeighborhood = from feature in data.features where feature.properties.neighborhood!="" select feature.properties.neighborhood;
                 foreach (string neighbor in emptyNeighborhood)
                 {
@@ -61,7 +63,9 @@ namespace LINQ
                 }
                 Console.WriteLine("************************************** " +count + " **************************************");
                 count = 0;
-                IEnumerable<string> noDuplicatesNeighborhood = data.features.Select(feature => feature.properties.neighborhood).Where(feature => feature!= "").Distinct();
+
+
+                IEnumerable<string> noDuplicatesNeighborhood = (from feature in data.features where feature.properties.neighborhood != ""  select feature.properties.neighborhood).Distinct();
                 foreach (string neighbor in noDuplicatesNeighborhood)
                 {
                     Console.WriteLine(neighbor);
@@ -69,6 +73,18 @@ namespace LINQ
                 }
                 Console.WriteLine("************************************** " + count + " **************************************");
                 count = 0;
+
+
+                IEnumerable<string> allQueries = data.features.Select(feature => feature.properties.neighborhood).Where(feature => feature!= "").Distinct();
+                foreach (string neighbor in allQueries)
+                {
+                    Console.WriteLine(neighbor);
+                    count++;
+                }
+                Console.WriteLine("************************************** " + count + " **************************************");
+                count = 0;
+
+
                 IEnumerable<string> emptyNeighborhoodOpposingMethod= data.features.Select(feature => feature.properties.neighborhood).Where(feature => feature != "");
                 foreach (string neighbor in emptyNeighborhoodOpposingMethod)
                 {
